@@ -7,6 +7,7 @@ void printGreeting(const std::string& name, int age) {
 }
 
 int main() {
+    setlocale(LC_ALL, "Ru");
     // Переменные для хранения имени и возраста
     std::string name;
     int age;
