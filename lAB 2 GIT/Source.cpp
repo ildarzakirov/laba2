@@ -3,7 +3,7 @@
 
 // Функция для вывода приветственного сообщения
 void printGreeting(const std::string& name, int age) {
-    std::cout << "Привет, " << name << "! Вам " << age << " лет." << std::endl;
+    std::cout << "Пока, " << name << "! Вам " << age << " лет." << std::endl;
 }
 
 // Функция для вывода меню
