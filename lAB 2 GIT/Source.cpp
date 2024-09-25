@@ -67,7 +67,7 @@ int main() {
                 changeName(name);
             }
             else {
-                std::cout << "Введите имя перед изменением." << std::endl;
+                std::cout << "Введите имяФСФС перед изменением." << std::endl;
             }
             break;
         }
