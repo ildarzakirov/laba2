@@ -3,7 +3,7 @@
 
 // ‘ункци€ дл€ вывода приветственного сообщени€
 void printGreeting(const std::string& name, int age) {
-    std::cout << "ѕривет, " << name << "! ¬ам " << age << " лет." << std::endl;
+    std::cout << "€ внекфншвсшщ¬ћЎ–ў—–ЎвмшЎ«ћЎ«шзшивыщиоћ, " << name << "! ¬ам " << age << " лет." << std::endl;
 }
 
 // ‘ункци€ дл€ вывода меню
@@ -39,7 +39,7 @@ int main() {
     // ќсновной цикл программы
     while (true) {
         printMenu();
-        std::cout << "¬ведите ваш выбор: ";
+        std::cout << "¬ведите ¬—¬— выбор: ";
         std::cin >> choice;
 
         switch (choice) {
@@ -67,7 +67,7 @@ int main() {
                 changeName(name);
             }
             else {
-                std::cout << "¬ведите им€ перед изменением." << std::endl;
+                std::cout << "¬ведите им€‘—‘— перед изменением." << std::endl;
             }
             break;
         }
